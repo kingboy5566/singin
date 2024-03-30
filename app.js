@@ -3,6 +3,7 @@ function sing(){
 
 var first = document.getElementById('first').value
 var last = document.getElementById('last').value
+var fullName = first +" " + last;
 var email = document.getElementById('email').value
 var password = document.getElementById('password').value
 if(first && last && email && password){
@@ -12,6 +13,7 @@ if(first && last && email && password){
     // console.log(password);
    localStorage.setItem("fname",first)
    localStorage.setItem("lname",last)
+   localStorage.setItem("FullName",fullName)
    localStorage.setItem("email1",email)
    localStorage.setItem("pass",password)
    window.location.href="facebook.html"
@@ -20,11 +22,10 @@ if(first && last && email && password){
 
 
 function singin(){
-    var first1 = document.getElementById('name1').value
-
+ var first1 = document.getElementById('name1').value
 var password1 = document.getElementById('pass1').value
 
-if(first1 === localStorage.getItem("fname") && password1 === localStorage.getItem("pass")){
+if(first1 === localStorage.getItem("FullName") && password1 === localStorage.getItem("pass")){
     window.location.href="fpage.html"
 }else{
     alert("plase enter right name and password")
