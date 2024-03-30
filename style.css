@@ -1,0 +1,65 @@
+.main{
+    
+    width: 40%;
+    height:70%;
+    margin: 0% 25%;
+    background-color: white
+    position: absolute;
+}
+.face{text-align: center;
+}
+.child1{
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin: 15px 10%;
+    background-color: blue;
+    border-radius: 4px;
+  
+  
+    
+}
+.child1  input{
+    width: 45%;
+    height: 5%;
+    padding: 10px;
+    margin: 15px 25%;
+    border-radius: 4px;
+
+}
+.child1  input:hover{
+background-color: rgb(224, 218, 218);
+
+}
+.sing{
+
+    width: 70px;
+    height: 35px;
+    margin: 2% 40%;
+    color: white;
+    border-radius: 4px;
+    background-color: rgba(71, 218, 71, 0.973);
+}
+.sing:hover{
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
